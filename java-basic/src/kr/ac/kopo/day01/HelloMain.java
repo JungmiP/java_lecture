@@ -1,26 +1,26 @@
 package kr.ac.kopo.day01;
 /**
- * ¹®¼­È­ ÁÖ¼® ¸¸µé±â
+ * ë¬¸ì„œí™” ì£¼ì„ ë§Œë“¤ê¸°
  * 
- * @author ¸¸µç »ç¶÷ 
+ * @author ë§Œë“  ì‚¬ëŒ 
  * @version 0.1
  *  
  */
 public class HelloMain {
 	
 	/**
-	 * ½ÇÇàÇÏ±â À§ÇÑ ¸Ş¼Òµå
+	 * ì‹¤í–‰í•˜ê¸° ìœ„í•œ ë©”ì†Œë“œ
 	 * @param args
 	 * */
 
 	public static void main(String[] args) {
 		
-		System.out.print(1); //¶óÀÎ¾øÀÌ
-		System.out.println(true); // »õ ¶óÀÎ
-		System.out.printf("%d %c %d", 3, '+', 4); // Çü½Ä ÁöÁ¤, ¶óÀÎ ¾øÀÌ
-		System.out.printf("[%4d] %c %d", 3, '+', 4); // ÀÚ¸´¼ö ÁöÁ¤, ¿À¸¥ÂÊ Á¤·Ä
-		System.out.printf("[%-4d] %c %d", 3, '+', 4); // ÀÚ¸´¼ö ÁöÁ¤, ¿ŞÂÊ Á¤·Ä
-		System.out.printf("[%04d] %c %d", 3, '+', 4); // ºóÀÚ¸® 0À¸·Î Ã¤¿ì±â
+		System.out.print(1); //ë¼ì¸ì—†ì´
+		System.out.println(true); // ìƒˆ ë¼ì¸
+		System.out.printf("%d %c %d", 3, '+', 4); // í˜•ì‹ ì§€ì •, ë¼ì¸ ì—†ì´
+		System.out.printf("[%4d] %c %d", 3, '+', 4); // ìë¦¿ìˆ˜ ì§€ì •, ì˜¤ë¥¸ìª½ ì •ë ¬
+		System.out.printf("[%-4d] %c %d", 3, '+', 4); // ìë¦¿ìˆ˜ ì§€ì •, ì™¼ìª½ ì •ë ¬
+		System.out.printf("[%04d] %c %d", 3, '+', 4); // ë¹ˆìë¦¬ 0ìœ¼ë¡œ ì±„ìš°ê¸°
 		
 	}
 }
