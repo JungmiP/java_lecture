@@ -1,4 +1,4 @@
-package kr.ac.kopo.homework;
+package kr.ac.kopo.homework01;
 
 public class Task06 {
 
