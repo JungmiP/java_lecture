@@ -1,5 +1,15 @@
 package kr.ac.kopo.day04;
 
+/*
+ 
+*****
+****
+***
+**
+*
+
+*/
+
 public class LoopMain08 {
 
 	public static void main(String[] args) {

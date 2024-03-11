@@ -1,5 +1,13 @@
 package kr.ac.kopo.day04;
 
+
+/*
+12345
+12345
+12345
+12345
+12345 
+ * */
 public class LoopMain03 {
 
 	public static void main(String[] args) {
