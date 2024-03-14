@@ -1,5 +1,7 @@
 package kr.ac.kopo.day05;
 
+import java.util.Arrays;
+
 public class ArrayMain03 {
 
 	public static void main(String[] args) {
@@ -13,6 +15,16 @@ public class ArrayMain03 {
 		System.out.println("두번째 문자열: " + strArr[1]);
 		System.out.println("세번째 문자열: " + strArr[2]);
 		
+		
+		for(int i = 0; i < strArr.length; i++) {
+			System.out.println(strArr[i]);
+		}
+		
+		for(String s : strArr) {
+			System.out.println(s);
+		}
+		
+		System.out.println(Arrays.toString(strArr));
 	}
 
 }
