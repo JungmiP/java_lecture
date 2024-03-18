@@ -19,7 +19,7 @@ public class Task05 {
 		// 약수의 개수를 구하고
 		for(int i = 0; i < num/2; i++) {
 			if(num % (i + 1) == 0) {
-				arr[i] = i + 1;
+				//s
 				cnt++;
 			}
 		}
